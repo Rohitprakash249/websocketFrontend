@@ -3,7 +3,7 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import { io } from "socket.io-client";
 import "./App.css";
-const socket = io("https://websocket-backend-blond.vercel.app/");
+const socket = io("https://websocketbackend-i9kq.onrender.com/");
 function App() {
   const [count, setCount] = useState(0);
   const [message, setMessage] = useState("");
